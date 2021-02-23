@@ -1,5 +1,6 @@
 import base64
 import cv2
+import jsonpickle
 import numpy as np
 
 ENCODING_TO_CONVERSION = {'bgr8': cv2.COLOR_BGR2RGB}
